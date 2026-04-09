@@ -1,0 +1,68 @@
+<!-- GenderLens v1.0 - github.com/your-username/gender-lens -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GenderLens</title>
+  <link rel="stylesheet" href="popup.css">
+  <script src="lib/xlsx.full.min.js"></script>
+  <script src="lib/tf.min.js"></script>
+</head>
+<body>
+  <div id="app">
+    <header class="header">
+      <h1>GenderLens</h1>
+      <span class="pill offline">100% Offline</span>
+    </header>
+
+    <section class="status-row" id="statusRow">
+      <span class="status-dot" id="statusDot"></span>
+      <span id="statusText">Initializing...</span>
+    </section>
+
+    <section id="errorBanner" class="error-banner hidden"></section>
+
+    <section id="uploadZone" class="upload-zone" tabindex="0" role="button" aria-label="Upload file">
+      <input id="fileInput" type="file" accept=".csv,.xls,.xlsx" hidden>
+      <div id="uploadIdle">
+        <div class="upload-icon">&#8682;</div>
+        <p>Drop your file here or click to browse</p>
+        <small>.csv, .xls, .xlsx</small>
+      </div>
+      <div id="uploadLoaded" class="hidden">
+        <p id="fileMeta"></p>
+        <button id="changeFileBtn" class="link-btn" type="button">Change file</button>
+      </div>
+    </section>
+
+    <section id="columnSection" class="hidden">
+      <label for="nameColumnSelect">Select the column containing names</label>
+      <select id="nameColumnSelect">
+        <option value="">Choose a column</option>
+      </select>
+      <p class="muted" id="namePreview"></p>
+    </section>
+
+    <button id="predictBtn" class="btn-primary" type="button" disabled>
+      <span id="predictBtnLabel">Predict Gender</span>
+      <span id="predictSpinner" class="spinner hidden"></span>
+    </button>
+
+    <section id="statsBar" class="stats hidden"></section>
+
+    <section id="previewSection" class="preview hidden">
+      <h2>Preview (first 10 rows)</h2>
+      <div class="table-wrap">
+        <table id="previewTable"></table>
+      </div>
+    </section>
+
+    <button id="downloadBtn" class="btn-outline hidden" type="button">Download Full Result as CSV</button>
+
+    <footer class="footer">Powered by TF.js Conv1D + 2000-name dictionary</footer>
+  </div>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

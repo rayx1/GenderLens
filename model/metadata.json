@@ -1,0 +1,21 @@
+{
+  "modelName": "GenderLens-Conv1D",
+  "version": "1.0.0",
+  "architecture": "Conv1D character-level classifier",
+  "inputShape": [
+    20,
+    28
+  ],
+  "outputClasses": [
+    "Female",
+    "Male"
+  ],
+  "expectedAccuracy": "~88% on balanced test set",
+  "trainingDataset": "Built from bundled name_gender_dict.json (Male/Female entries only, augmented)",
+  "note": "Weights trained from bundled dictionary; replace with larger curated dataset for best real-world results.",
+  "charEncoding": "a-z = indices 1-26, space = 27, padding/unknown = 0",
+  "threshold": 0.5,
+  "confidenceFormula": "Math.round(Math.abs(prob - 0.5) * 200)",
+  "trainedAt": "2026-04-09T12:28:44.252651Z",
+  "testAccuracy": 0.9531
+}

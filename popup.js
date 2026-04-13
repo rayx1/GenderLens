@@ -1,5 +1,5 @@
 // GenderLens v1.0 - github.com/your-username/gender-lens
-import { loadDictionary, loadModel, predictBatch, getModelStatus } from "./src/predictor.js";
+import { loadDictionary, loadModel, predictBatch, getModelStatus, getModelLoadError } from "./src/predictor.js";
 import { parseFile, addPredictionColumns, exportToCSV } from "./src/filehandler.js";
 
 const state = {
@@ -321,7 +321,8 @@ async function init() {
   if (!dictOk && !modelOk) {
     showError("Dictionary and model failed to load. Extension will use heuristic rules only.");
   } else if (!modelOk) {
-    showError("Model failed to load. Using Dictionary + Rules only.");
+    const detail = getModelLoadError();
+    showError(`Model failed to load. Using Dictionary + Rules only.${detail ? `\n${detail}` : ""}`);
   }
 }
 

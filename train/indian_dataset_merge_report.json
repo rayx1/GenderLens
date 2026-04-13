@@ -1,0 +1,13 @@
+{
+  "male_unique": 3914,
+  "female_unique": 3139,
+  "overlap": 497,
+  "male_only": 3417,
+  "female_only": 2642,
+  "added_new_male": 3342,
+  "added_new_female": 2568,
+  "set_unknown_from_overlap": 497,
+  "unlabeled_unique": 6478,
+  "added_unlabeled_unknown": 27,
+  "final_dictionary_size": 8461
+}

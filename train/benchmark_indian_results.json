@@ -1,0 +1,490 @@
+{
+  "summary": {
+    "total": 60,
+    "correct": 57,
+    "accuracy": 0.95,
+    "avg_confidence": 91.98
+  },
+  "rows": [
+    {
+      "name": "Subhashree",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 98,
+      "prob_male": 0.0111,
+      "correct": true
+    },
+    {
+      "name": "Lipsa",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 100,
+      "prob_male": 0.0015,
+      "correct": true
+    },
+    {
+      "name": "Smruti",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 100,
+      "prob_male": 0.0025,
+      "correct": true
+    },
+    {
+      "name": "Jyotirmayee",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 100,
+      "prob_male": 0.0001,
+      "correct": true
+    },
+    {
+      "name": "Rashmita",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 100,
+      "prob_male": 0.0,
+      "correct": true
+    },
+    {
+      "name": "Sujata",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 17,
+      "prob_male": 0.4159,
+      "correct": true
+    },
+    {
+      "name": "Lopamudra",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 100,
+      "prob_male": 0.0017,
+      "correct": true
+    },
+    {
+      "name": "Pallabi",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 99,
+      "prob_male": 0.0072,
+      "correct": true
+    },
+    {
+      "name": "Ipsita",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 98,
+      "prob_male": 0.0106,
+      "correct": true
+    },
+    {
+      "name": "Nibedita",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 100,
+      "prob_male": 0.0016,
+      "correct": true
+    },
+    {
+      "name": "Hemalata",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 98,
+      "prob_male": 0.0123,
+      "correct": true
+    },
+    {
+      "name": "Chitralekha",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 100,
+      "prob_male": 0.0006,
+      "correct": true
+    },
+    {
+      "name": "Ananya",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 97,
+      "prob_male": 0.0149,
+      "correct": true
+    },
+    {
+      "name": "Pooja",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 93,
+      "prob_male": 0.035,
+      "correct": true
+    },
+    {
+      "name": "Shreya",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 92,
+      "prob_male": 0.0403,
+      "correct": true
+    },
+    {
+      "name": "Aishwarya",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 99,
+      "prob_male": 0.0057,
+      "correct": true
+    },
+    {
+      "name": "Lakshmi",
+      "expected": "Female",
+      "predicted": "Male",
+      "confidence": 75,
+      "prob_male": 0.8743,
+      "correct": false
+    },
+    {
+      "name": "Meenakshi",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 100,
+      "prob_male": 0.0002,
+      "correct": true
+    },
+    {
+      "name": "Kavitha",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 98,
+      "prob_male": 0.0075,
+      "correct": true
+    },
+    {
+      "name": "Padmavathi",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 100,
+      "prob_male": 0.0,
+      "correct": true
+    },
+    {
+      "name": "Arpita",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 85,
+      "prob_male": 0.0773,
+      "correct": true
+    },
+    {
+      "name": "Indrani",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 85,
+      "prob_male": 0.0734,
+      "correct": true
+    },
+    {
+      "name": "Tanushree",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 100,
+      "prob_male": 0.0002,
+      "correct": true
+    },
+    {
+      "name": "Vaishnavi",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 100,
+      "prob_male": 0.0022,
+      "correct": true
+    },
+    {
+      "name": "Biswajit",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 100,
+      "prob_male": 0.9989,
+      "correct": true
+    },
+    {
+      "name": "Satyajit",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 100,
+      "prob_male": 0.9999,
+      "correct": true
+    },
+    {
+      "name": "Debasis",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 100,
+      "prob_male": 0.9996,
+      "correct": true
+    },
+    {
+      "name": "Niladri",
+      "expected": "Male",
+      "predicted": "Female",
+      "confidence": 17,
+      "prob_male": 0.4143,
+      "correct": false
+    },
+    {
+      "name": "Trilochan",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 100,
+      "prob_male": 1.0,
+      "correct": true
+    },
+    {
+      "name": "Pranab",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 94,
+      "prob_male": 0.9702,
+      "correct": true
+    },
+    {
+      "name": "Subrat",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 100,
+      "prob_male": 0.9978,
+      "correct": true
+    },
+    {
+      "name": "Madhusudan",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 98,
+      "prob_male": 0.9876,
+      "correct": true
+    },
+    {
+      "name": "Jagannath",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 100,
+      "prob_male": 1.0,
+      "correct": true
+    },
+    {
+      "name": "Laxmidhar",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 100,
+      "prob_male": 0.9995,
+      "correct": true
+    },
+    {
+      "name": "Rahul",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 79,
+      "prob_male": 0.8948,
+      "correct": true
+    },
+    {
+      "name": "Vikram",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 99,
+      "prob_male": 0.9973,
+      "correct": true
+    },
+    {
+      "name": "Rakesh",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 73,
+      "prob_male": 0.8649,
+      "correct": true
+    },
+    {
+      "name": "Sanjay",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 56,
+      "prob_male": 0.7796,
+      "correct": true
+    },
+    {
+      "name": "Murugan",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 100,
+      "prob_male": 0.9999,
+      "correct": true
+    },
+    {
+      "name": "Senthil",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 93,
+      "prob_male": 0.9638,
+      "correct": true
+    },
+    {
+      "name": "Karthik",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 78,
+      "prob_male": 0.8909,
+      "correct": true
+    },
+    {
+      "name": "Venkatesh",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 98,
+      "prob_male": 0.9923,
+      "correct": true
+    },
+    {
+      "name": "Srinivas",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 99,
+      "prob_male": 0.9965,
+      "correct": true
+    },
+    {
+      "name": "Krishna",
+      "expected": "Male",
+      "predicted": "Female",
+      "confidence": 95,
+      "prob_male": 0.0263,
+      "correct": false
+    },
+    {
+      "name": "Abhijit",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 100,
+      "prob_male": 0.9988,
+      "correct": true
+    },
+    {
+      "name": "Kaushik",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 96,
+      "prob_male": 0.9783,
+      "correct": true
+    },
+    {
+      "name": "Partha",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 98,
+      "prob_male": 0.9903,
+      "correct": true
+    },
+    {
+      "name": "Tanmoy",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 100,
+      "prob_male": 0.9982,
+      "correct": true
+    },
+    {
+      "name": "Pratyush",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 100,
+      "prob_male": 0.9997,
+      "correct": true
+    },
+    {
+      "name": "Sourav",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 100,
+      "prob_male": 0.9992,
+      "correct": true
+    },
+    {
+      "name": "Ritwik",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 99,
+      "prob_male": 0.9962,
+      "correct": true
+    },
+    {
+      "name": "Harshad",
+      "expected": "Male",
+      "predicted": "Male",
+      "confidence": 99,
+      "prob_male": 0.9967,
+      "correct": true
+    },
+    {
+      "name": "Tanvi",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 98,
+      "prob_male": 0.0084,
+      "correct": true
+    },
+    {
+      "name": "Aaradhya",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 100,
+      "prob_male": 0.0002,
+      "correct": true
+    },
+    {
+      "name": "Shraddha",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 24,
+      "prob_male": 0.3816,
+      "correct": true
+    },
+    {
+      "name": "Ishita",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 98,
+      "prob_male": 0.0086,
+      "correct": true
+    },
+    {
+      "name": "Aparna",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 99,
+      "prob_male": 0.007,
+      "correct": true
+    },
+    {
+      "name": "Sakshi",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 95,
+      "prob_male": 0.0225,
+      "correct": true
+    },
+    {
+      "name": "Nupur",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 100,
+      "prob_male": 0.0025,
+      "correct": true
+    },
+    {
+      "name": "Bhavani",
+      "expected": "Female",
+      "predicted": "Female",
+      "confidence": 100,
+      "prob_male": 0.0006,
+      "correct": true
+    }
+  ]
+}

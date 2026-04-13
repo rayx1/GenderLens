@@ -29,7 +29,7 @@ html, body {
 .offline { background: #DCFCE7; color: #166534; }
 .status-row { display: flex; align-items: center; gap: 8px; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); font-size: 13px; }
 .status-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--unknown); }
-.error-banner { border: 1px solid #fecaca; background: #fef2f2; color: #991b1b; border-radius: 8px; padding: 10px; font-size: 13px; }
+.error-banner { border: 1px solid #fecaca; background: #fef2f2; color: #991b1b; border-radius: 8px; padding: 10px; font-size: 13px; white-space: pre-line; }
 .upload-zone { border: 2px dashed var(--border); border-radius: 8px; background: var(--surface); padding: 16px; text-align: center; cursor: pointer; transition: all 0.2s ease; }
 .upload-zone:hover, .upload-zone.dragover { border-color: var(--primary); background: #eef2ff; }
 .upload-icon { font-size: 28px; line-height: 1; color: var(--primary); }
